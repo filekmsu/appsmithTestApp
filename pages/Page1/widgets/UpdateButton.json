@@ -3,7 +3,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 42,
     "widgetName": "UpdateButton",
-    "onClick": "{{updateCustomerInfo.run().then(() => {\n  getCustomers.run();\n});}}",
+    "onClick": "{{updateCustomerInfo.run().then(() => {\n  getCustomers.run({});\n});}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
@@ -46,7 +46,7 @@
     "disabledWhenInvalid": false,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 35,
-    "originalBottomRow": 42,
+    "originalBottomRow": 43,
     "buttonVariant": "PRIMARY",
     "placement": "CENTER"
 }

@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "postgres-plugin",
   "unpublishedAction": {
-    "name": "updateCustomerInfo",
+    "name": "fetchCustomer",
     "datasource": {
       "name": "Users",
       "pluginId": "postgres-plugin",
@@ -18,15 +18,15 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "UPDATE users SET name = '{{NameInput.text}}', email = '{{EmailInput.text}}', country = '{{CountryInput.text}}' WHERE id = {{CustomersTable.selectedRow.id}}",
+      "body": "SELECT * FROM public.\"users\" where id={{CustomersTable.selectedRow.id}} LIMIT 100;",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
-          "value": false
+          "value": true
         }
       ]
     },
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "dynamicBindingPathList": [
       {
         "key": "body"
@@ -36,18 +36,15 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "CountryInput.text",
-      "CustomersTable.selectedRow.id",
-      "EmailInput.text",
-      "NameInput.text"
+      "CustomersTable.selectedRow.id"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-01-19T07:42:31Z"
+    "createdAt": "2024-01-19T09:24:44Z"
   },
-  "id": "Page1_updateCustomerInfo",
+  "id": "Page1_fetchCustomer",
   "deleted": false,
-  "gitSyncId": "62b41f08b72ed502c3e66727_62b41f08b72ed502c3e6672c"
+  "gitSyncId": "65aa27e66d4985654045274b_65aa3fdc6d498565404527f1"
 }
