@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 570,
+          "bottomRow": 900,
           "containerStyle": "none",
           "snapRows": 68,
           "parentRowSpace": 1,
@@ -28,24 +28,8 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "RSM-ASM_Find_RSM_ASM1",
-              "name": "Find_RSM_ASM1",
-              "confirmBeforeExecute": false,
-              "pluginType": "SAAS",
-              "jsonPathKeys": [
-                "Table1.searchText",
-                "Table1.sortOrder.column",
-                "Table1.searchText ? \"undefined\" : \"\"",
-                "Table1.pageSize",
-                "Table1.pageOffset"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
-              "id": "RSM-ASM_Total_record_RSM_ASM1",
-              "name": "Total_record_RSM_ASM1",
+              "id": "RSM-ASM_getRSMASM",
+              "name": "getRSMASM",
               "confirmBeforeExecute": false,
               "pluginType": "SAAS",
               "jsonPathKeys": [

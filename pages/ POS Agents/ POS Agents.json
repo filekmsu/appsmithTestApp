@@ -14,7 +14,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 880,
+          "bottomRow": 870,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
@@ -37,28 +37,6 @@
               "jsonPathKeys": [
                 "data_table.pageSize",
                 "(data_table.pageNo - 1) * data_table.pageSize"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
-              "id": " POS Agents_getManager",
-              "name": "getManager",
-              "confirmBeforeExecute": false,
-              "pluginType": "SAAS",
-              "jsonPathKeys": [
-                "data_table.selectedRow.AGENT_NM"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": " POS Agents_getShedule",
-              "name": "getShedule",
-              "confirmBeforeExecute": false,
-              "pluginType": "SAAS",
-              "jsonPathKeys": [
-                "data_table.selectedRow.AGENT_NM"
               ],
               "timeoutInMillisecond": 10000
             }

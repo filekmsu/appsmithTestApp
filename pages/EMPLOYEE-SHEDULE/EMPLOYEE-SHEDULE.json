@@ -1,40 +1,41 @@
 {
   "unpublishedPage": {
-    "name": "Schedule",
-    "slug": "schedule",
+    "name": "EMPLOYEE-SHEDULE",
+    "slug": "employee-shedule",
     "layouts": [
       {
         "viewMode": false,
         "dsl": {
           "widgetName": "MainContainer",
           "backgroundColor": "none",
-          "rightColumn": 1224,
+          "rightColumn": 1174,
           "snapColumns": 64,
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 490,
+          "bottomRow": 620,
           "containerStyle": "none",
-          "snapRows": 68,
+          "snapRows": 125,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 86,
-          "minHeight": 700,
+          "minHeight": 890,
           "parentColumnSpace": 1,
+          "dynamicTriggerPathList": [],
           "dynamicBindingPathList": [],
           "leftColumn": 0
         },
         "layoutOnLoadActions": [
           [
             {
-              "id": "Schedule_Total_record_EMPLOYEE_SHEDULE1",
-              "name": "Total_record_EMPLOYEE_SHEDULE1",
+              "id": "EMPLOYEE-SHEDULE_SelectQuery",
+              "name": "SelectQuery",
               "confirmBeforeExecute": false,
               "pluginType": "SAAS",
               "jsonPathKeys": [
-                "Table1.searchText",
-                "Table1.searchText ? \"Employee Name\" : \"\""
+                "data_table.pageSize",
+                "(data_table.pageNo - 1) * data_table.pageSize"
               ],
               "timeoutInMillisecond": 10000
             }
@@ -42,16 +43,15 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Schedule",
+        "id": "EMPLOYEE-SHEDULE",
         "deleted": false,
         "policies": [],
         "userPermissions": []
       }
     ],
     "userPermissions": [],
-    "policies": [],
-    "isHidden": false
+    "policies": []
   },
   "deleted": false,
-  "gitSyncId": "65aa27e66d4985654045274b_65ae130f6d49856540452b07"
+  "gitSyncId": "65aa27e66d4985654045274b_65ae1c566d49856540452c37"
 }

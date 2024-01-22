@@ -1,12 +1,12 @@
 {
     "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
     "borderColor": "#E0DEDE",
-    "onSort": "{{\n            Find_RSM_ASM1.run();\n            Total_record_RSM_ASM1.run()\n          }}",
+    "onSort": "{{\n            Find_RSM_ASM1.run();\n            getRSMASM.run()\n          }}",
     "isVisibleDownload": false,
     "iconSVG": "/static/media/icon.e6911f8bb94dc6c4a102a74740c41763.svg",
     "topRow": 0,
     "isSortable": true,
-    "onPageChange": "{{\n            Find_RSM_ASM1.run();\n            Total_record_RSM_ASM1.run()\n          }}",
+    "onPageChange": "{{\n            Find_RSM_ASM1.run();\n            getRSMASM.run()\n          }}",
     "type": "TABLE_WIDGET_V2",
     "inlineEditingSaveOption": "ROW_LEVEL",
     "animateLoading": true,
@@ -38,7 +38,7 @@
     "isVisible": true,
     "enableClientSideSearch": true,
     "version": 2,
-    "totalRecordsCount": "{{Total_record_RSM_ASM1.data.length}}",
+    "totalRecordsCount": "{{getRSMASM.data.length}}",
     "tags": [
         "Suggested",
         "Display"
@@ -311,7 +311,7 @@
     "textSize": "0.875rem",
     "widgetId": "kz592mj7zk",
     "minWidth": 450,
-    "tableData": "{{Find_RSM_ASM1.data}}",
+    "tableData": "{{getRSMASM.data}}",
     "label": "Data",
     "searchKey": "",
     "parentId": "xjgwi249fs",
