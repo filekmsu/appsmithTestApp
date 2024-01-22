@@ -2,7 +2,7 @@
   "pluginType": "SAAS",
   "pluginId": "google-sheets-plugin",
   "unpublishedAction": {
-    "name": "getManager",
+    "name": "Total_record_RSM_ASM1",
     "datasource": {
       "name": "Google sheet",
       "pluginId": "google-sheets-plugin",
@@ -13,9 +13,8 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "EMPLOYEE",
+    "pageId": "RSM-ASM",
     "actionConfiguration": {
-      "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "selfReferencingDataPaths": [],
@@ -26,23 +25,11 @@
         "entityType": {
           "data": "ROWS"
         },
-        "pagination": {
-          "data": {
-            "limit": "20",
-            "offset": "0"
-          }
-        },
-        "projection": {
-          "data": []
-        },
         "queryFormat": {
           "data": "ROWS"
         },
-        "range": {
-          "data": ""
-        },
         "sheetName": {
-          "data": "EMPLOYEE- AREA- ASM"
+          "data": "RSM-ASM"
         },
         "sheetUrl": {
           "data": "https://docs.google.com/spreadsheets/d/13QpgtPP4wpZbDZM_UdZ2Qvq8Jric83ZPoOYoa_uXTRA/edit"
@@ -50,25 +37,16 @@
         "smartSubstitution": {
           "data": true
         },
-        "sortBy": {
-          "data": [
-            {
-              "column": "",
-              "order": "Ascending"
-            }
-          ]
-        },
         "tableHeaderIndex": {
           "data": "1"
         },
         "where": {
           "data": {
-            "condition": "AND",
             "children": [
               {
-                "condition": "EQ",
-                "value": "{{data_table.selectedRow.AGENT_NM}}",
-                "key": "FULL_NAME"
+                "condition": "CONTAINS",
+                "key": "{{Table1.searchText ? \"undefined\" : \"\"}}",
+                "value": "{{Table1.searchText}}"
               }
             ]
           }
@@ -78,22 +56,23 @@
     "executeOnLoad": true,
     "dynamicBindingPathList": [
       {
-        "key": "formData.where.data.children[0].value"
+        "key": "formData.where.data"
       }
     ],
     "isValid": true,
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "data_table.selectedRow.AGENT_NM"
+      "Table1.searchText",
+      "Table1.searchText ? \"undefined\" : \"\""
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-01-22T04:42:15Z"
+    "createdAt": "2024-01-22T06:57:15Z"
   },
-  "id": "EMPLOYEE_getManager",
+  "id": "RSM-ASM_Total_record_RSM_ASM1",
   "deleted": false,
-  "gitSyncId": "65aa27e66d4985654045274b_65adf2276d49856540452913"
+  "gitSyncId": "65aa27e66d4985654045274b_65ae11cb6d49856540452ace"
 }

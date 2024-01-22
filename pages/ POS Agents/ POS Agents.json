@@ -1,7 +1,8 @@
 {
   "unpublishedPage": {
-    "name": "EMPLOYEE",
-    "slug": "employee",
+    "name": " POS Agents",
+    "slug": "pos-agents",
+    "customSlug": "posagents",
     "layouts": [
       {
         "viewMode": false,
@@ -29,7 +30,7 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "EMPLOYEE_getEmployees",
+              "id": " POS Agents_getEmployees",
               "name": "getEmployees",
               "confirmBeforeExecute": false,
               "pluginType": "SAAS",
@@ -42,7 +43,7 @@
           ],
           [
             {
-              "id": "EMPLOYEE_getManager",
+              "id": " POS Agents_getManager",
               "name": "getManager",
               "confirmBeforeExecute": false,
               "pluginType": "SAAS",
@@ -52,7 +53,7 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "EMPLOYEE_getShedule",
+              "id": " POS Agents_getShedule",
               "name": "getShedule",
               "confirmBeforeExecute": false,
               "pluginType": "SAAS",
@@ -65,14 +66,15 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "EMPLOYEE",
+        "id": " POS Agents",
         "deleted": false,
         "policies": [],
         "userPermissions": []
       }
     ],
     "userPermissions": [],
-    "policies": []
+    "policies": [],
+    "isHidden": false
   },
   "deleted": false,
   "gitSyncId": "65aa27e66d4985654045274b_65adec8b6d4985654045289e"
