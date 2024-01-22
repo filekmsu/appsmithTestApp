@@ -7,6 +7,10 @@
     {
       "id": "RSM-ASM",
       "isDefault": false
+    },
+    {
+      "id": "Schedule",
+      "isDefault": false
     }
   ],
   "viewMode": false,
