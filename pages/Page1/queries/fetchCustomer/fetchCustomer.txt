@@ -1,1 +1,0 @@
-SELECT * FROM public."users" where id={{CustomersTable.selectedRow.id}} LIMIT 100;
