@@ -30,6 +30,14 @@
         "layoutOnLoadActions": [
           [
             {
+              "id": " POS Agents_Api2",
+              "name": "Api2",
+              "confirmBeforeExecute": false,
+              "pluginType": "REMOTE",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
               "id": " POS Agents_getEmployees",
               "name": "getEmployees",
               "confirmBeforeExecute": false,

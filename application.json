@@ -11,14 +11,6 @@
     {
       "id": "EMPLOYEE-SHEDULE",
       "isDefault": false
-    },
-    {
-      "id": "Airtable test",
-      "isDefault": false
-    },
-    {
-      "id": "Slack test",
-      "isDefault": false
     }
   ],
   "viewMode": false,

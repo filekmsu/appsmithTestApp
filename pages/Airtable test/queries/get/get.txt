@@ -1,1 +1,0 @@
-{"pageSize":"100","command":"LIST_RECORDS","baseId":"appTEc3N0ryS04o9B","tableName":"Points","fields":"fields","filterByFormula":""}

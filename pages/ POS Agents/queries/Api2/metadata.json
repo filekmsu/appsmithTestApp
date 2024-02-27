@@ -2,7 +2,7 @@
   "pluginType": "REMOTE",
   "pluginId": "airtable-plugin",
   "unpublishedAction": {
-    "name": "get",
+    "name": "Api2",
     "datasource": {
       "name": "Airtable Test",
       "pluginId": "airtable-plugin",
@@ -13,14 +13,14 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Airtable test",
+    "pageId": " POS Agents",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "selfReferencingDataPaths": []
     },
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
@@ -29,10 +29,9 @@
     "userSetOnLoad": true,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": [],
-    "createdAt": "2024-01-22T08:09:17Z"
+    "userPermissions": []
   },
-  "id": "Airtable test_get",
+  "id": " POS Agents_Api2",
   "deleted": false,
-  "gitSyncId": "65aa27e66d4985654045274b_65ae22ad6d49856540452ca0"
+  "gitSyncId": "65aa27e66d4985654045274b_65bced566d4985654045314c"
 }
