@@ -11,6 +11,10 @@
     {
       "id": "EMPLOYEE-SHEDULE",
       "isDefault": false
+    },
+    {
+      "id": "Filkin_test",
+      "isDefault": false
     }
   ],
   "viewMode": false,
