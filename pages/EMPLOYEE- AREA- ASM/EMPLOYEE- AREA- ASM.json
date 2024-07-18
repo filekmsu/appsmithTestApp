@@ -1,40 +1,39 @@
 {
   "unpublishedPage": {
-    "name": "RSM-ASM",
-    "slug": "rsm-asm",
+    "name": "EMPLOYEE- AREA- ASM",
+    "slug": "employee-area-asm",
     "layouts": [
       {
         "viewMode": false,
         "dsl": {
           "widgetName": "MainContainer",
           "backgroundColor": "none",
-          "rightColumn": 1224,
+          "rightColumn": 1174,
           "snapColumns": 64,
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 490,
+          "bottomRow": 950,
           "containerStyle": "none",
-          "snapRows": 68,
+          "snapRows": 125,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 86,
-          "minHeight": 700,
+          "minHeight": 890,
           "parentColumnSpace": 1,
+          "dynamicTriggerPathList": [],
           "dynamicBindingPathList": [],
           "leftColumn": 0
         },
         "layoutOnLoadActions": [
           [
             {
-              "id": "RSM-ASM_getRSMASM",
-              "name": "getRSMASM",
+              "id": "EMPLOYEE- AREA- ASM_SelectQuery",
+              "name": "SelectQuery",
               "confirmBeforeExecute": false,
               "pluginType": "SAAS",
               "jsonPathKeys": [
-                "Table1.searchText",
-                "Table1.searchText ? \"undefined\" : \"\"",
                 "data_table.pageSize",
                 "(data_table.pageNo - 1) * data_table.pageSize"
               ],
@@ -44,16 +43,15 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "RSM-ASM",
+        "id": "EMPLOYEE- AREA- ASM",
         "deleted": false,
         "policies": [],
         "userPermissions": []
       }
     ],
     "userPermissions": [],
-    "policies": [],
-    "isHidden": false
+    "policies": []
   },
   "deleted": false,
-  "gitSyncId": "65aa27e66d4985654045274b_65ae11786d49856540452abb"
+  "gitSyncId": "65aa27e66d4985654045274b_66993812912f8f4b441aff18"
 }

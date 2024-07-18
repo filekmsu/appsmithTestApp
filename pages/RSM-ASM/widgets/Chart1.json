@@ -10,8 +10,8 @@
         "visuals",
         "visualisations"
     ],
-    "topRow": 58,
-    "bottomRow": 90,
+    "topRow": 17,
+    "bottomRow": 49,
     "parentRowSpace": 10,
     "type": "CHART_WIDGET",
     "hideCard": false,
@@ -97,11 +97,11 @@
     "mobileTopRow": 58,
     "responsiveBehavior": "fill",
     "yAxisName": "Employyes",
-    "originalTopRow": 58,
+    "originalTopRow": 17,
     "chartName": "Count employees by ASM",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 0,
     "xAxisName": "ASM",
-    "originalBottomRow": 90,
+    "originalBottomRow": 49,
     "chartType": "COLUMN_CHART"
 }

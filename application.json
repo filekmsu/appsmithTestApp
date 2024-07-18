@@ -2,7 +2,7 @@
   "pages": [
     {
       "id": " POS Agents",
-      "isDefault": true
+      "isDefault": false
     },
     {
       "id": "RSM-ASM",
@@ -15,6 +15,10 @@
     {
       "id": "Filkin_test",
       "isDefault": false
+    },
+    {
+      "id": "EMPLOYEE- AREA- ASM",
+      "isDefault": true
     }
   ],
   "viewMode": false,

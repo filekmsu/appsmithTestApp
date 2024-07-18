@@ -13,7 +13,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "RSM-ASM",
+    "pageId": " POS Agents",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -75,7 +75,7 @@
         }
       }
     },
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
@@ -89,10 +89,9 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": [],
-    "createdAt": "2024-01-22T06:57:15Z"
+    "userPermissions": []
   },
-  "id": "RSM-ASM_getRSMASM",
+  "id": " POS Agents_getRSMASM",
   "deleted": false,
-  "gitSyncId": "65aa27e66d4985654045274b_65ae11cb6d49856540452ace"
+  "gitSyncId": "65aa27e66d4985654045274b_669937a5912f8f4b441aff08"
 }
