@@ -54,7 +54,7 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 89,
+    "originalBottomRow": 90,
     "primaryColumnId": "id",
     "columnSizeMap": {
         "task": 245,
@@ -320,7 +320,7 @@
     "renderMode": "CANVAS",
     "horizontalAlignment": "LEFT",
     "isVisibleSearch": true,
-    "originalTopRow": 10,
+    "originalTopRow": 11,
     "isVisiblePagination": true,
     "verticalAlignment": "CENTER"
 }
