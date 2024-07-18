@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 620,
+          "bottomRow": 890,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
@@ -28,6 +28,18 @@
         },
         "layoutOnLoadActions": [
           [
+            {
+              "id": "EMPLOYEE-SHEDULE_JSObject1.myFun1",
+              "name": "JSObject1.myFun1",
+              "collectionId": "EMPLOYEE-SHEDULE_JSObject1",
+              "clientSideExecution": true,
+              "confirmBeforeExecute": true,
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "function () {\n  const urlParams = new URLSearchParams(window.location.search);\n  const param1 = urlParams.get('param1');\n  const param2 = urlParams.get('param2');\n  return param1;\n}"
+              ],
+              "timeoutInMillisecond": 10000
+            },
             {
               "id": "EMPLOYEE-SHEDULE_SelectQuery",
               "name": "SelectQuery",

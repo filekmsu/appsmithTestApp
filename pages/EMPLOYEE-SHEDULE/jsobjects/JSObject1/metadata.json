@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "JSObject1",
+    "pageId": "EMPLOYEE-SHEDULE",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "EMPLOYEE-SHEDULE_JSObject1",
+  "deleted": false,
+  "gitSyncId": "65aa27e66d4985654045274b_6698e5fa912f8f4b441afdd5"
+}
