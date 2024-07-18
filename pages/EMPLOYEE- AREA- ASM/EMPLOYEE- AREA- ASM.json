@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 950,
+          "bottomRow": 870,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
@@ -35,6 +35,7 @@
               "pluginType": "SAAS",
               "jsonPathKeys": [
                 "data_table.pageSize",
+                "JSObject2.myFun1()",
                 "(data_table.pageNo - 1) * data_table.pageSize"
               ],
               "timeoutInMillisecond": 10000

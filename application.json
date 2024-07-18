@@ -1,22 +1,6 @@
 {
   "pages": [
     {
-      "id": " POS Agents",
-      "isDefault": false
-    },
-    {
-      "id": "RSM-ASM",
-      "isDefault": false
-    },
-    {
-      "id": "EMPLOYEE-SHEDULE",
-      "isDefault": false
-    },
-    {
-      "id": "Filkin_test",
-      "isDefault": false
-    },
-    {
       "id": "EMPLOYEE- AREA- ASM",
       "isDefault": true
     }

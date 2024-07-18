@@ -87,6 +87,12 @@
           "viewType": "component",
           "componentData": "ROWS"
         },
+        "pagination": {
+          "data": {
+            "limit": "{{data_table.pageSize}}",
+            "offset": "{{(data_table.pageNo - 1) * data_table.pageSize}}"
+          }
+        },
         "projection": {
           "data": []
         },
@@ -122,14 +128,22 @@
           "data": "1",
           "viewType": "component",
           "componentData": "1"
+        },
+        "where": {
+          "data": {
+            "condition": "AND"
+          }
         }
       }
     },
     "executeOnLoad": false,
+    "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
+      "(data_table.pageNo - 1) * data_table.pageSize",
+      "data_table.pageSize",
       "insert_form.formData"
     ],
     "userSetOnLoad": false,
