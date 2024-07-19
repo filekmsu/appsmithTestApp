@@ -17,7 +17,11 @@
   "publishedAppLayout": {
     "type": "TABLET_LARGE"
   },
-  "unpublishedCustomJSLibs": [],
+  "unpublishedCustomJSLibs": [
+    {
+      "uidString": "xmlParser_https://cdnjs.cloudflare.com/ajax/libs/fast-xml-parser/3.17.5/parser.min.js"
+    }
+  ],
   "publishedCustomJSLibs": [],
   "applicationVersion": 2,
   "isManualUpdate": false,

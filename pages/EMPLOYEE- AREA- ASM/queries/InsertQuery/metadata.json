@@ -149,7 +149,8 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": []
+    "userPermissions": [],
+    "createdAt": "2024-07-19T06:53:57Z"
   },
   "id": "EMPLOYEE- AREA- ASM_InsertQuery",
   "deleted": false,
