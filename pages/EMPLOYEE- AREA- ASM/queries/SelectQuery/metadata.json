@@ -149,7 +149,7 @@
               {
                 "key": "ASM",
                 "condition": "EQ",
-                "value": "{{JSObject2.myFun1()}}"
+                "value": "{{JSqueryParams.getASMfromURL()}}"
               }
             ]
           },
@@ -174,7 +174,7 @@
     "messages": [],
     "jsonPathKeys": [
       "(data_table.pageNo - 1) * data_table.pageSize",
-      "JSObject2.myFun1()",
+      "JSqueryParams.getASMfromURL()",
       "data_table.pageSize"
     ],
     "userSetOnLoad": true,

@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "myFun2",
-    "fullyQualifiedName": "JSObject2.myFun2",
+    "name": "getASMfromURL",
+    "fullyQualifiedName": "JSqueryParams.getASMfromURL",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -14,7 +14,7 @@
       "userPermissions": []
     },
     "pageId": "EMPLOYEE- AREA- ASM",
-    "collectionId": "EMPLOYEE- AREA- ASM_JSObject2",
+    "collectionId": "EMPLOYEE- AREA- ASM_JSqueryParams",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -38,7 +38,7 @@
     "userPermissions": [],
     "createdAt": "2024-07-18T15:45:04Z"
   },
-  "id": "EMPLOYEE- AREA- ASM_JSObject2.myFun2",
+  "id": "EMPLOYEE- AREA- ASM_JSqueryParams.getASMfromURL",
   "deleted": false,
-  "gitSyncId": "65aa27e66d4985654045274b_66993880912f8f4b441aff38"
+  "gitSyncId": "65aa27e66d4985654045274b_66993880912f8f4b441aff37"
 }

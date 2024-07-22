@@ -10,7 +10,7 @@
   "unreadCommentThreads": 0,
   "clonedFromApplicationId": "62b334e22ff7e42f71a2a124",
   "color": "#F5D1D1",
-  "icon": "calender",
+  "icon": "bar-graph",
   "unpublishedAppLayout": {
     "type": "TABLET_LARGE"
   },
@@ -24,6 +24,11 @@
   ],
   "publishedCustomJSLibs": [],
   "applicationVersion": 2,
+  "embedSetting": {
+    "height": "720px",
+    "width": "1024px",
+    "showNavigationBar": false
+  },
   "isManualUpdate": false,
   "deleted": false
 }

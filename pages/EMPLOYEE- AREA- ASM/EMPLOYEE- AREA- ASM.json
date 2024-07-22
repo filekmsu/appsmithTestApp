@@ -2,6 +2,7 @@
   "unpublishedPage": {
     "name": "EMPLOYEE- AREA- ASM",
     "slug": "employee-area-asm",
+    "customSlug": "asm",
     "layouts": [
       {
         "viewMode": false,
@@ -34,8 +35,8 @@
               "confirmBeforeExecute": false,
               "pluginType": "SAAS",
               "jsonPathKeys": [
+                "JSqueryParams.getASMfromURL()",
                 "data_table.pageSize",
-                "JSObject2.myFun1()",
                 "(data_table.pageNo - 1) * data_table.pageSize"
               ],
               "timeoutInMillisecond": 10000
@@ -51,7 +52,8 @@
       }
     ],
     "userPermissions": [],
-    "policies": []
+    "policies": [],
+    "isHidden": false
   },
   "deleted": false,
   "gitSyncId": "65aa27e66d4985654045274b_66993812912f8f4b441aff18"

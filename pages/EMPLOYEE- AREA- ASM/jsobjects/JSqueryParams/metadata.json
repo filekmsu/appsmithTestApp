@@ -1,24 +1,15 @@
 {
   "unpublishedCollection": {
-    "name": "JSObject2",
+    "name": "JSqueryParams",
     "pageId": "EMPLOYEE- AREA- ASM",
     "pluginId": "js-plugin",
     "pluginType": "JS",
     "actions": [],
     "archivedActions": [],
-    "variables": [
-      {
-        "name": "myVar1",
-        "value": "[]"
-      },
-      {
-        "name": "myVar2",
-        "value": "{}"
-      }
-    ],
+    "variables": [],
     "userPermissions": []
   },
-  "id": "EMPLOYEE- AREA- ASM_JSObject2",
+  "id": "EMPLOYEE- AREA- ASM_JSqueryParams",
   "deleted": false,
   "gitSyncId": "65aa27e66d4985654045274b_66993880912f8f4b441aff3d"
 }
